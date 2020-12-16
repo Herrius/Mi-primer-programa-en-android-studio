@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Primer Numero"
+    android:textSize="18dp">
+ </TextView>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24dp"
+    android:id="@+id/edtn1">
+</EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo Numero"
+        android:textSize="18dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="24dp"></EditText>
+<!--    comentario-->
+
+    <Spinner
+        android:id="@+id/spOperacion"
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:entries="@array/operadores" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"></Button>
+
+    <TextView
+        android:id="@+id/edtresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="edtresult" />
+
+</LinearLayout>

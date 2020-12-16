@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">C1Ej2</string>
+    <array name="operadores">
+        <item>"+" </item>
+        <item>"-" </item>
+        <item>"x" </item>
+        <item>"/" </item>
+        <item>"^" </item>
+        <item>"r" </item>
+        <item>"%" </item>
+        <item>"!" </item>
+    </array>
+</resources>
